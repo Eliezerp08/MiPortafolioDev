@@ -1,0 +1,28 @@
+{
+  "name": "proyectoexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "express-mongo": "^0.3.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^9.10.4",
+    "sanitize": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
