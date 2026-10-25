@@ -4,6 +4,7 @@ const sanitize = require('mongo-sanitize');
 const bcrypt = require('bcrypt'); // Añadido para hashear contraseñas
 require("dotenv").config();
 
+
 // Importación de modelos
 const Usuario = require("./models/usuarios"); 
 const Cartelera = require("./models/cartelera"); // Asegúrate de crear este modelo
